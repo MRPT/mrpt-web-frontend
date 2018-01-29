@@ -27,4 +27,15 @@ npm run e2e
 npm test
 ```
 
+To upload to heroku
+```
+heroku login
+heroku create <YOUR APP NAME>
+heroku config:set NODE_ENV=production --app <YOUR-PROJECT-NAME-HERE>
+heroku git:remote --app <YOUR-PROJECT-NAME-HERE>
+
+#Now to deploythe master branch
+git push heroku master
+```
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
