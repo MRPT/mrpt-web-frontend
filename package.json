@@ -1,7 +1,7 @@
 {
   "name": "mrpt-web",
   "version": "1.0.0",
-  "license" : "BSD-3-Clause",
+  "license": "BSD-3-Clause",
   "description": "MRPT frontend webinterface",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -11,7 +11,8 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
+    "codecov": "npm run unit && codecov"
   },
   "dependencies": {
     "axios": "^0.17.1",
@@ -40,6 +41,7 @@
     "babel-register": "^6.22.0",
     "chalk": "^2.0.1",
     "chromedriver": "^2.27.2",
+    "codecov": "^3.0.0",
     "copy-webpack-plugin": "^4.0.1",
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
@@ -89,5 +91,8 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "jest": {
+    "collectCoverage": true
+  }
 }
