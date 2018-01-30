@@ -1,5 +1,7 @@
 # mrpt-web
 
+[![Build Status](https://travis-ci.org/MRPT/mrpt-web-frontend.svg?branch=master)](https://travis-ci.org/MRPT/mrpt-web-frontend)
+
 > MRPT frontend webinterface
 
 ## Build Setup
