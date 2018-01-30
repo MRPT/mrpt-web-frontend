@@ -1,7 +1,10 @@
 language: node_js
+addons:
+  chrome: stable
 node_js:
   - 'node'
 install:
   - 'npm install'
 script:
   - 'npm run codecov'
+  - 'npm run e2e'
