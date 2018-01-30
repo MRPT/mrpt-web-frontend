@@ -1,9 +1,8 @@
 {
   "name": "mrpt-web",
   "version": "1.0.0",
+  "license" : "BSD-3-Clause",
   "description": "MRPT frontend webinterface",
-  "author": "Hunter Laux <hunterlaux@gmail.com>",
-  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "node server.js",
