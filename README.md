@@ -1,6 +1,7 @@
 # mrpt-web
 
-[![Build Status](https://travis-ci.org/MRPT/mrpt-web-frontend.svg?branch=master)](https://travis-ci.org/MRPT/mrpt-web-frontend)
+[![Build Status](https://travis-ci.org/MRPT/mrpt-web-frontend.svg?branch=master)](https://travis-ci.org/MRPT/mrpt-web-frontend) [![codecov](https://codecov.io/gh/MRPT/mrpt-web-frontend/branch/master/graph/badge.svg)](https://codecov.io/gh/MRPT/mrpt-web-frontend)
+
 
 > MRPT frontend webinterface
 
